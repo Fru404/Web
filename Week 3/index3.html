@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Registration page</title>
+    </head>
+    <body bgcolor="#ffffff">
+        <table width="100%" border="0">
+            <tr>
+            <td colspan = "2" bgcolor = "#23394c">
+            <img src="sharda.avif" width="100" height="100" align="left">
+                <h1 style="color:#ffffff">Sharda University</h1>
+            </td>
+        </tr>
+        </table>
+        
+        <table width="50%" border="0">
+        <caption><h1>Student's Registration Page</h1></caption>
+        <th></th>
+        <th></th>
+        <th></th>
+        
+        <tr>
+        <td>
+        <font size="4">
+        <form>
+            <label>First Name</label><br>
+            <input type="text" size="30"><br>
+            <label>Middle Name</label><br>
+            <input type="text" size="30"><br>
+            <label>last Name</label><br>
+            <input type="text" size="30"><br>
+            <label>Email Address</label><br>
+            <input type="text" size="30"><br>
+            <label>System ID</label><br>
+            <input type="text" size="30" ><br>
+            <label>Contanct Number</label><br>
+            <input type="text" size="30" ><br>
+        </font>
+        </form>
+        </td>
+        <td>
+         <font size="4">
+            <form>
+
+            <label>Father's Name</label><br>
+            <input type="text" size="30"><br>
+            <label>Mother's Name</label><br>
+            <input type="text" size="30"><br>
+            <label>Parent Contact Number</label><br>
+            <input type="text" size="30"><br>
+            <label>Home Address</label><br>
+            <input type="text" size="30"><br>
+            <label>PIN Code</label><br>
+            <input type="text" size="30" maxlength="4"><br>
+        </font>
+        </form>
+        </td>
+        
+        
+        
+</tr>
+</table>
+       
+ 
+ 
+<button>Submit</button><br>
+  <button onclick="getlocation()">
+    Find Location
+  </button>
+  <p id="locdisplay"></p>
+ 
+ 
+ 
+ 
+  <script>
+    var variable1 = document.getElementById("locdisplay");
+    function getlocation() {
+      navigator.geolocation.getCurrentPosition(showLoc);
+    }
+    function showLoc(pos) {
+      variable1.innerHTML ="Latitude: " + pos.coords.latitude +"<br>Longitude: " + pos.coords.longitude;
+    }
+  </script>
+    </body>
+</html>
