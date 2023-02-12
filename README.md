@@ -4,7 +4,7 @@ Each Week Contains Task to perform
 
 
  
-| WEEK-1                                                                                         
+ WEEK-1                                                                                         
 _________________________________________________________________________________________________
  
 
@@ -20,7 +20,8 @@ d.     Use frames such that the page is divided into 3 frames 20% on left to sho
 
 e.      Change the background color of the page; At the bottom create a link to take the user to the top of the page.
 
- 
+_________________________________________________________________________________________________
+  
 
 WEEK-2
 
@@ -40,6 +41,8 @@ d.     Apply various colors to suitably distinguish key words , also apply font 
 
 Add this to your Exp 1.
 
+_________________________________________________________________________________________________
+ 
  
 
 WEEK-3
@@ -58,6 +61,7 @@ c.      Add Resume uploading and certificate uploading section in your Profile c
 
 Add above to Exp 1.
 
+_________________________________________________________________________________________________
  
 
 WEEK-4
@@ -95,6 +99,7 @@ d.     Embed Geolocation in your Page and its should update your updated locatio
 
 Add above to Exp 1.
 
+_________________________________________________________________________________________________
  
 
 WEEK-5
@@ -113,6 +118,7 @@ b.     Style Your page using CSS text effects and image effects.
 
 Add above to Exp 1.
 
+_________________________________________________________________________________________________
  
 
 WEEK-6
@@ -126,7 +132,8 @@ b.     Use the paragraph border in your profile to apply round corner property.
  
 
 Add above to Exp 1.
-
+_________________________________________________________________________________________________
+ 
 WEEK-7
 
  
@@ -144,7 +151,8 @@ c.      Write a java script function to print an integer with commas as thousand
 Apply these in student registration form created in week 3.
 
  
-
+_________________________________________________________________________________________________
+ 
 WEEK-8
 
  
@@ -160,7 +168,8 @@ b.     Write a java script for loop that will iterate from 0 to 15 for each iter
 Apply these in the student registration form created in week 3.
 
  
-
+_________________________________________________________________________________________________
+ 
 WEEK-9
 
  
@@ -174,7 +183,8 @@ b.     Write a java script program to sum the multiple s of 3 and 5 under 1000.
 c.      To design the scientific calculator and make event for each button using java script.
 
  
-
+_________________________________________________________________________________________________
+ 
 WEEK-10
 
  
@@ -190,7 +200,8 @@ c.     Write PHP program to convert a string, lower to upper case and upper case
 d.     Write PHP program to change image automatically using switch case.
 
  
-
+_________________________________________________________________________________________________
+ 
 WEEK-11
 
  
@@ -202,7 +213,8 @@ a.     Write PHP program to calculate current age without using any pre-define f
 b.     Write PHP program to upload image to the server using html and PHP.
 
 c.     Write PHP program to upload registration form into database.
-
+_________________________________________________________________________________________________
+ 
 WEEK-12
 
 PHP
@@ -212,13 +224,15 @@ a.     Write PHP program to display the registration form from the database.
 b.     Write PHP program to update the registration form present in database.
 
 c.     Write PHP program to delete the registration form from database.
-
+_________________________________________________________________________________________________
+ 
 WEEK-13
 
 XML
 
 a.     Create an XML structure (internal and external) which will show the information for 10 students in expanded and collapsed form, information consisting of Name, Roll no, Address, CGPA and no of backlogs.
-
+_________________________________________________________________________________________________
+ 
 WEEK-14
 
 XML
