@@ -1,6 +1,6 @@
 # Web-Technology-Lab
 Repository Includes all Web Technology Lab Files for every Week.
-Each Week Contains Task to perform
+Each Week Contains Task to be performed
 
 
  
