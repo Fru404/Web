@@ -75,7 +75,7 @@ a.     Create a Canvas.
 b.     Write a HTML5 Code to display the patterns.
 
 
-
+<img src="https://github.com/Fru404/Web/blob/main/Week%203/static/readme.png?raw=true">
 
 
 
