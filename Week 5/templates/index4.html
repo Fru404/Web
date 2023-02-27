@@ -1,0 +1,31 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Canvas</title>
+    </head>
+    <style>
+    mycanvas{border:2px solid;
+              float:right;
+              }
+    .mycanvas{
+        border: 5px solid;
+        display: flex;
+        height: 150px;
+        align-items: center;
+    }
+    </style>
+    <body>
+        <div class="mycanvas">
+        <canvas id="mycanvas" width="500" height="250"></canvas>
+        </div>
+    </body>
+    <script>
+        var c = document.getElementById("mycanvas");
+        var ctx = c.getContext("2d");
+        ctx.fillRect(25,25,100,100);
+        ctx.clearRect(45,45,60,60);
+        ctx.strokeRect(50,50,50,50)
+    </script>
+</html>

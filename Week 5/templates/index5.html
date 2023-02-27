@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>capitals of countries</title>
+<style>
+p{
+color:black;
+font-weight:bold;
+font-size:10;
+}
+
+</style>
+</head>
+<body>
+<form name="frm1">
+<br/>
+
+Select a Country : <select name="country" onchange="capital()">
+<option value="select">--SELECT--</option>
+<option value="Cameroon">CAMEROON</option>
+<option value="china">Chad</option>
+<option value="pakistan">South Africa</option>
+<option value="bangladesh">Liberia</option>
+<option value="japan">Tunisia</option>
+</select>
+<br/>
+<br/>
+<font color="black" size="6">Capital is :</font> <p id="capt"></p>
+
+</form>
+</body>
+<script language="javascript">
+function capital()
+{
+var cunt=document.forms["cfm"].country.value; 
+var capital="select any country ";
+if( cunt=="Cameroon")
+{
+capital="YAOUNDE";
+}
+if( cunt=="Chad")
+{
+capital="N'djamena";
+}
+if( cunt=="South Africa")
+{
+capital="Cape Town";
+}
+if( cunt=="Liberia")
+{
+capital="Monrovia";
+}
+if( cunt=="Tunisia")
+{
+capital="Tunis";
+}
+
+if( cunt=="select")
+{
+capital="select any country";
+}
+document.getElementById("capt").innerHTML=capital;
+}
+</script>
+
+</html>

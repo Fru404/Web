@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+
+   </head>
+    <body id = "test" onload = "drawShape();">
+   <div>
+    <canvas id = "mycanvas"></canvas>
+    <canvas id="mycanvas2"></canvas>
+   </div>
+    <audio controls>
+        
+    </audio>
+    <video width="" height="" controls>
+        <source src="C:\Users\ngwaf\OneDrive\Desktop\week 4\static\jingle-bells-christmas-hip-hop-128137.mp3" type="video/mp4">
+    </video>
+   </body>
+      <style>
+         #test {width: 1000px;
+            height:100px;
+            float:right;
+            margin: 0px auto;
+             }
+      </style>
+  <script type = "text/javascript">
+         function drawShape() {
+
+            var canvas = document.getElementById('mycanvas');
+            if (canvas.getContext) {
+               var ctx = canvas.getContext('2d');
+               ctx.beginPath();
+               ctx.moveTo(25,25);
+               ctx.lineTo(105,25);
+               ctx.lineTo(25,105);
+               ctx.fill();
+               ctx.beginPath();
+               ctx.moveTo(125,125);
+               ctx.lineTo(125,45);
+               ctx.lineTo(45,125);
+               ctx.closePath();
+               ctx.stroke();
+
+               var c = document.getElementById("mycanvas2");
+                var ctx = c.getContext("2d");
+                ctx.fillRect(25,25,100,100);
+                ctx.clearRect(45,45,60,60);
+                ctx.strokeRect(50,50,50,50)
+            } else {
+               alert('Error');
+            }
+         }
+      </script>
+   
+</html>
