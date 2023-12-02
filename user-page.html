@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Welcome</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 50px;
+      }
+
+      h1 {
+        color: #3498db;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome, <span id="userName"></span>!</h1>
+    <!-- You can customize the welcome message as needed -->
+
+    <script>
+      // Retrieve the name parameter from the URL
+      const params = new URLSearchParams(window.location.search);
+      const userName = params.get("name");
+
+      // Display the user's name on the page
+      document.getElementById("userName").innerText = userName;
+    </script>
+  </body>
+</html>
